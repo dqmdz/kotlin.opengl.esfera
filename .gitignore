@@ -1,0 +1,75 @@
+# Gradle
+.gradle/
+build/
+gradle-app.setting
+!gradle-wrapper.jar
+.gradletasknamecache
+
+# Kotlin
+*.class
+*.log
+*.ctxt
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+hs_err_pid*
+replay_pid*
+
+# IDE - IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+.idea_modules/
+
+# IDE - Eclipse
+.classpath
+.project
+.settings/
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+
+# IDE - VSCode
+.vscode/
+.code-workspace
+
+# OS specific
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# LibGDX specific
+*.hprof
+/android/libs/
+/android/assets/
+/ios/libs/
+/ios/assets/
+/html/war/
+/html/gwt-unitCache/
+/html/war/WEB-INF/deploy/
+/html/war/WEB-INF/classes/
+/html/war/assets/
+/html/war/assets/
+.gwt/
+gwt-unitCache/
+www-test/
+.gwt-tmp/
+
+# Project specific
+/assets/
+/logs/
+/config/ 

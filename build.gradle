@@ -1,0 +1,25 @@
+plugins {
+    id 'org.jetbrains.kotlin.jvm' version '1.8.0'
+    id 'application'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation "com.badlogicgames.gdx:gdx:1.11.0"
+    implementation "com.badlogicgames.gdx:gdx-backend-lwjgl3:1.11.0"
+    implementation "com.badlogicgames.gdx:gdx-platform:1.11.0:natives-desktop"
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:1.8.0"
+    implementation "com.badlogicgames.gdx:gdx-bullet:1.11.0"
+    implementation "com.badlogicgames.gdx:gdx-bullet-platform:1.11.0:natives-desktop"
+}
+
+kotlin {
+    jvmToolchain(17)
+}
+
+application {
+    mainClass = 'MainKt'
+} 
